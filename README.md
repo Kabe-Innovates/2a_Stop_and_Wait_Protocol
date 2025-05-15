@@ -14,7 +14,7 @@ Developed by : **KABELAN G K**<br>
 Reg No : **212224110027**
 
 ### Client
-```
+```python
 import socket
 s=socket.socket()
 s.bind(('localhost', 8001))
@@ -32,7 +32,7 @@ while True:
         break
 ```
 ### Server
-```
+```python
 import socket
 s=socket.socket()
 s.connect(('localhost', 8001))
